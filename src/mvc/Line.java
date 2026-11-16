@@ -23,7 +23,8 @@ public class Line extends Shape {
 	@Override
 	public void draw(Graphics g) {
 		// TODO Auto-generated method stub
-		
+		g.setColor(color);
+		g.drawLine(startPoint.getX(), startPoint.getY(), endPoint.getX(), endPoint.getY());
 	}
 
 	public Point getStartPoint() {

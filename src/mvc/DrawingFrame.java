@@ -16,7 +16,8 @@ public class DrawingFrame extends JFrame {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				// greska je da ovde pisemo ikakvulogiku!!!
-				controller.drawPoint(e); // u projektu ce biti drawShape vrv
+				//controller.drawPoint(e); // u projektu ce biti drawShape vrv
+				controller.drawComposite(e);
 			}
 		});
 		
